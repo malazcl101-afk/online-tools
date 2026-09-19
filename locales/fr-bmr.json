@@ -1,0 +1,17 @@
+{
+  "appTitle": "Calculateur de métabolisme de base",
+  "intro": "Estimez les calories dont votre corps a besoin au repos.",
+  "weight": "Poids (kg)",
+  "height": "Taille (cm)",
+  "age": "Âge", "sex": "Sexe", "male": "Homme", "female": "Femme",
+  "calculate": "Calculer mon métabolisme de base", "reset": "Effacer",
+  "resultLabel": "Votre métabolisme de base estimé", "resultText": "{value} kcal par jour",
+  "explanation": "C’est l’énergie approximative utilisée par votre corps au repos complet.",
+  "formula": "Estimation basée sur l’équation de Mifflin-St Jeor.",
+  "required": "Veuillez remplir tous les champs.",
+  "invalidWeight": "Saisissez un poids entre 20 et 500 kg.",
+  "invalidHeight": "Saisissez une taille entre 80 et 250 cm.",
+  "invalidAge": "Cet outil est destiné aux adultes : saisissez un âge entre 18 et 120 ans.",
+  "privacy": "Le calcul s’effectue dans votre navigateur : aucune donnée n’est envoyée.",
+  "disclaimer": "Cet outil est informatif et ne remplace pas l’avis d’un professionnel de santé."
+}
