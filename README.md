@@ -26,3 +26,4 @@ The tool page uses `noindex,follow` intentionally. The Blogger landing page—no
 - `BLOGGER-GUIDE.md`: publication, SEO, content, testing and scaling plan.
 
 For language two, add `locales/en.json`, then make the UI select the locale from a validated `?lang=en` parameter. Keep editorial Blogger articles separate and genuinely localized; do not place long SEO articles in these JSON files.
+French BMI calculator — initial deployment.
