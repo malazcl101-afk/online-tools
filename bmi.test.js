@@ -1,0 +1,11 @@
+const assert = require("node:assert/strict");
+const bmi = require("../core/bmi.js");
+assert.equal(bmi.calculateMetric(70, 175), 22.9);
+assert.equal(bmi.calculateImperial(154, 5, 9), 22.7);
+assert.equal(bmi.categoryKey(18.4), "underweight");
+assert.equal(bmi.categoryKey(18.5), "healthy");
+assert.equal(bmi.categoryKey(25), "overweight");
+assert.equal(bmi.categoryKey(30), "obesity");
+assert.deepEqual(bmi.healthyWeightRange(175), { min:56.7, max:76.3 });
+assert.throws(() => bmi.calculateMetric(0, 175), /INVALID_WEIGHT/);
+console.log("BMI tests passed");
