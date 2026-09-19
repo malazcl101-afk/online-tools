@@ -1,0 +1,24 @@
+<!-- Replace YOUR-USERNAME and REPOSITORY before publishing. -->
+<div class="bmi-tool-embed" style="max-width:800px;margin:24px auto;">
+  <iframe
+    id="bmi-calculator-frame"
+    title="Calculateur d’IMC gratuit"
+    src="https://YOUR-USERNAME.github.io/REPOSITORY/tools/bmi/"
+    width="100%"
+    height="700"
+    loading="lazy"
+    style="display:block;border:0;width:100%;overflow:hidden;"
+  ></iframe>
+</div>
+<script>
+(function () {
+  var frame = document.getElementById('bmi-calculator-frame');
+  window.addEventListener('message', function (event) {
+    if (event.origin !== 'https://YOUR-USERNAME.github.io') return;
+    if (event.data && event.data.type === 'tool-resize' && event.data.tool === 'bmi') {
+      frame.style.height = Math.max(560, Math.min(1100, Number(event.data.height) + 8)) + 'px';
+    }
+  });
+})();
+</script>
+<noscript><p>JavaScript est nécessaire pour utiliser ce calculateur.</p></noscript>
