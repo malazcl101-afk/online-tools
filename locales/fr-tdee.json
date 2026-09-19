@@ -1,0 +1,22 @@
+{
+  "appTitle": "Calculateur de besoins caloriques journaliers",
+  "intro": "Estimez le nombre de calories dont vous avez besoin chaque jour selon votre activité.",
+  "weight": "Poids (kg)", "height": "Taille (cm)", "age": "Âge", "sex": "Sexe",
+  "male": "Homme", "female": "Femme", "activity": "Niveau d’activité",
+  "sedentary": "Sédentaire (peu ou pas d’exercice)",
+  "light": "Légèrement actif (1 à 3 jours/semaine)",
+  "moderate": "Modérément actif (3 à 5 jours/semaine)",
+  "active": "Très actif (6 à 7 jours/semaine)",
+  "veryActive": "Très intense (travail physique ou entraînement intensif)",
+  "calculate": "Calculer mes besoins caloriques", "reset": "Effacer",
+  "bmrLabel": "Votre métabolisme de base estimé", "bmrText": "{value} kcal par jour",
+  "resultLabel": "Vos besoins caloriques journaliers estimés", "resultText": "{value} kcal par jour",
+  "resultExplanation": "Cette estimation inclut votre niveau d’activité déclaré.",
+  "formula": "Estimation basée sur l’équation de Mifflin-St Jeor et un facteur d’activité.",
+  "required": "Veuillez remplir tous les champs.",
+  "invalidWeight": "Saisissez un poids entre 20 et 500 kg.",
+  "invalidHeight": "Saisissez une taille entre 80 et 250 cm.",
+  "invalidAge": "Cet outil est destiné aux adultes : saisissez un âge entre 18 et 120 ans.",
+  "privacy": "Le calcul s’effectue dans votre navigateur : aucune donnée n’est envoyée.",
+  "disclaimer": "Cet outil est informatif et ne remplace pas l’avis d’un professionnel de santé."
+}
