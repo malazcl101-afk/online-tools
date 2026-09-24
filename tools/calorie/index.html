@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow"><title>Calculateur de calories</title>
+  <link rel="stylesheet" href="style.css">
+</head><body>
+  <main class="calculator" aria-labelledby="app-title">
+    <span class="eyebrow">OUTIL GRATUIT</span><h1 id="app-title"></h1><p id="intro" class="intro"></p>
+    <form id="calorie-form" novalidate>
+      <div class="fields">
+        <label><span id="weight-label"></span><input id="weight" type="number" min="20" max="500" step="0.1" inputmode="decimal" placeholder="70"></label>
+        <label><span id="height-label"></span><input id="height" type="number" min="80" max="250" step="0.1" inputmode="decimal" placeholder="175"></label>
+        <label><span id="age-label"></span><input id="age" type="number" min="18" max="120" step="1" inputmode="numeric" placeholder="30"></label>
+        <label><span id="sex-label"></span><select id="sex"><option value="">—</option><option value="male" id="male"></option><option value="female" id="female"></option></select></label>
+        <label class="full"><span id="activity-label"></span><select id="activity"><option value="">—</option><option value="sedentary" id="sedentary"></option><option value="light" id="light"></option><option value="moderate" id="moderate"></option><option value="active" id="active"></option><option value="veryActive" id="veryActive"></option></select></label>
+      </div>
+      <p id="error" class="error" role="alert" aria-live="assertive"></p>
+      <div class="actions"><button class="primary" id="calculate" type="submit"></button><button class="secondary" id="reset" type="reset"></button></div>
+    </form>
+    <section id="result" class="result hidden" aria-live="polite" tabindex="-1">
+      <div class="mini"><span id="bmr-label"></span><strong id="bmr-value"></strong></div>
+      <div class="total"><span id="maintenance-label"></span><strong id="maintenance-value"></strong></div>
+      <div class="goals">
+        <div><span id="gentle-loss-label"></span><strong id="gentle-loss-value"></strong></div>
+        <div><span id="gradual-loss-label"></span><strong id="gradual-loss-value"></strong></div>
+        <div><span id="gentle-gain-label"></span><strong id="gentle-gain-value"></strong></div>
+      </div>
+      <p id="goal-explanation" class="small"></p><p id="formula" class="small"></p>
+    </section>
+    <p id="privacy" class="small"></p><p id="disclaimer" class="disclaimer"></p>
+  </main>
+  <script src="../../core/bmr.js"></script><script src="../../core/tdee.js"></script><script src="../../core/calorie.js"></script><script src="app.js"></script>
+</body></html>
