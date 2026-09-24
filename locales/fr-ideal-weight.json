@@ -1,0 +1,21 @@
+{
+  "appTitle": "Calculateur de poids idéal",
+  "intro": "Découvrez une fourchette de poids de référence selon votre taille et votre IMC actuel, si vous le renseignez.",
+  "height": "Taille (cm)",
+  "weight": "Poids actuel (kg) — facultatif",
+  "calculate": "Calculer ma fourchette de poids", "reset": "Effacer",
+  "rangeLabel": "Fourchette de poids de référence", "rangeText": "Entre {lower} kg et {upper} kg",
+  "referenceLabel": "Point de référence (IMC 22)", "referenceText": "Environ {value} kg",
+  "rangeExplanation": "Cette fourchette correspond à un IMC compris entre 18,5 et 24,9 chez l’adulte.",
+  "bmiLabel": "Votre IMC actuel", "bmiText": "{value} — {category}",
+  "underweight": "Insuffisance pondérale", "healthy": "Corpulence normale", "overweight": "Surpoids", "obesity": "Obésité",
+  "belowRange": "Votre poids actuel est environ {value} kg sous cette fourchette.",
+  "aboveRange": "Votre poids actuel est environ {value} kg au-dessus de cette fourchette.",
+  "withinRange": "Votre poids actuel se situe dans cette fourchette de référence.",
+  "method": "Méthode : poids = IMC × taille² (en mètres).",
+  "required": "Veuillez saisir votre taille.",
+  "invalidHeight": "Saisissez une taille entre 80 et 250 cm.",
+  "invalidWeight": "Saisissez un poids entre 20 et 500 kg.",
+  "privacy": "Le calcul s’effectue dans votre navigateur : aucune donnée n’est envoyée.",
+  "disclaimer": "Cet outil est destiné aux adultes et fournit une estimation, pas un diagnostic. L’IMC ne distingue pas la masse grasse de la masse musculaire et ne convient pas pour évaluer les enfants, les adolescents ou la grossesse."
+}

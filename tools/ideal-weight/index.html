@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow"><title>Calculateur de poids idéal</title>
+  <link rel="stylesheet" href="style.css">
+</head><body>
+  <main class="calculator" aria-labelledby="app-title">
+    <span class="eyebrow">OUTIL GRATUIT</span><h1 id="app-title"></h1><p id="intro" class="intro"></p>
+    <form id="ideal-weight-form" novalidate>
+      <div class="fields">
+        <label><span id="height-label"></span><input id="height" type="number" min="80" max="250" step="0.1" inputmode="decimal" placeholder="175" required></label>
+        <label><span id="weight-label"></span><input id="weight" type="number" min="20" max="500" step="0.1" inputmode="decimal" placeholder="70"></label>
+      </div>
+      <p id="error" class="error" role="alert" aria-live="assertive"></p>
+      <div class="actions"><button class="primary" id="calculate" type="submit"></button><button class="secondary" id="reset" type="reset"></button></div>
+    </form>
+    <section id="result" class="result hidden" aria-live="polite" tabindex="-1">
+      <div class="total"><span id="range-label"></span><strong id="range-value"></strong><p id="range-explanation" class="small"></p></div>
+      <div class="reference"><span id="reference-label"></span><strong id="reference-value"></strong></div>
+      <div id="current-card" class="current hidden"><span id="bmi-label"></span><strong id="bmi-value"></strong><p id="difference" class="small"></p></div>
+      <p id="method" class="small"></p>
+    </section>
+    <p id="privacy" class="small"></p><p id="disclaimer" class="disclaimer"></p>
+  </main><script src="../../core/ideal-weight.js"></script><script src="app.js"></script>
+</body></html>
