@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow"><title>Calculateur d’âge</title><link rel="stylesheet" href="style.css">
+</head><body>
+  <main class="calculator" aria-labelledby="app-title">
+    <span class="eyebrow">OUTIL GRATUIT</span><h1 id="app-title"></h1><p id="intro" class="intro"></p>
+    <form id="age-form" novalidate>
+      <div class="fields">
+        <label><span id="birth-label"></span><input id="birth-date" type="date" required></label>
+        <label><span id="reference-label"></span><input id="reference-date" type="date"><small id="reference-hint"></small></label>
+      </div>
+      <p id="error" class="error" role="alert" aria-live="assertive"></p>
+      <div class="actions"><button class="primary" id="calculate" type="submit"></button><button class="secondary" id="reset" type="reset"></button></div>
+    </form>
+    <section id="result" class="result hidden" aria-live="polite" tabindex="-1">
+      <div class="total"><span id="age-label"></span><strong id="age-value"></strong></div>
+      <div class="stats"><div><span id="days-label"></span><strong id="days-value"></strong></div><div><span id="birthday-label"></span><strong id="birthday-value"></strong></div></div>
+      <p id="method" class="small"></p>
+    </section>
+    <p id="privacy" class="small"></p><p id="disclaimer" class="disclaimer"></p>
+  </main><script src="../../core/age.js"></script><script src="app.js"></script>
+</body></html>

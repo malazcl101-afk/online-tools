@@ -1,0 +1,13 @@
+{
+  "appTitle": "Calculateur d’âge",
+  "intro": "Calculez votre âge exact en années, mois et jours à partir de votre date de naissance.",
+  "birthDate": "Date de naissance", "referenceDate": "Date de référence", "referenceHint": "Par défaut : aujourd’hui",
+  "calculate": "Calculer mon âge", "reset": "Effacer",
+  "ageLabel": "Votre âge exact", "ageText": "{years} ans, {months} mois et {days} jours",
+  "daysLabel": "Nombre de jours vécus", "daysText": "{value} jours",
+  "birthdayLabel": "Prochain anniversaire", "birthdayToday": "C’est aujourd’hui ! Bon anniversaire.", "birthdayText": "Dans {value} jours",
+  "method": "Le calcul compare les dates du calendrier ; il tient compte de la longueur réelle des mois et des années bissextiles.",
+  "required": "Veuillez saisir votre date de naissance.", "invalidDate": "Saisissez une date valide.", "futureDate": "La date de naissance ne peut pas être postérieure à la date de référence.",
+  "privacy": "Le calcul s’effectue dans votre navigateur : aucune donnée n’est envoyée.",
+  "disclaimer": "Cet outil donne une estimation calendaire. Pour une démarche administrative ou juridique, vérifiez toujours la date sur vos documents officiels."
+}
